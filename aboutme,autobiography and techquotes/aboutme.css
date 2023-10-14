@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(white-abstract-background-theme_23-2148830883.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.footer1 {
+text-align: center;
+background-color: rgb(75, 75, 72);
+color: white;
+height: 30px;
+font-size: x-large;
+font-weight: bold;
+font-family: arial;
+margin-bottom: 0;
+}
+
+.image {
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.meandmyfamily {
+    text-align: center;
+     background-color: white;
+      border: 3px solid black;
+       width: 150px; font-size: large;
+       margin-bottom: 0px;
+
+}
+.image:hover{
+    box-shadow: 0px 0px 50px rgb(0, 0, 0)
+    
+}
+.hobbies {
+    width: 300px;
+    height: 169px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: x-large;
+}
+.personality {
+    width: 300px;
+    height: 140px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: x-large;
+}
+.aboutme {
+    border: 4px solid black;
+    color: black;
+    background-color: white;
+    width: 750px;
+    height: 180px;
+    font-size: x-large;
+}
+.goal {
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    width: 450px;
+    height: 180px;
+    font-size: x-large;
+}
+.image {
+    width: 400px;
+    width: 500px;
+}
