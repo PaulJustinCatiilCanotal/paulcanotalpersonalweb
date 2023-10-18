@@ -78,12 +78,31 @@
             }
         }
 
+
+        @keyframes slideDown {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+}
+
+
+
+
         .content {
-            margin-top: 100px;
-            opacity: 1;
-            background-color: white;
-            border: 3px solid black;
+            margin-top: 70px;
       width: 450px;
+      margin-left: 350px;
+        }
+        .content p a {
+            opacity: 0 ;
+            animation: slideDown 0.3s ease forwards;
+            animation-delay: calc(0.1s * var(--i));
+            color: white;
         }
     </style>
 </head>
@@ -100,21 +119,22 @@
             <a href="MyLearningActivities.html" style="--i:6;" class="School">School Works</a>
         </nav>
     </header>
+    <h1 style="margin-left: 350px; margin-top: 100px;">My School Works</h1>
 <div class="content">
-    <p><a href="Home.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">PersonalWebsite</a></span>
-    <p><a href="https://sites.google.com/view/e-portfolio-ict11c-paulcanotal" style="text-decoration: none;" title="ClickMeToSeeMyWork">E-Portfolio</a></span>
-    <p><a href="LA/LearningActivity1.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 1</a></p>
-    <p><a href="LA/LearningActivity2.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 2</a></p>
-    <p><a href="LA/LearningActivity3.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 3</a></p>
-    <p><a href="LA/LearningActivity4.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 4</a></p>
-    <p><a href="LA/LearningActivity5.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 5</a></p>
-    <p><a href="LA/LearningActivity6.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 6</a></p>
-    <p><a href="LA/LearningActivity7.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 7</a></p>
-    <p><a href="LA/LearningActivity8.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">LearningActivity 8</a></p>
-    <p><a href="aboutme,autobiography and techquotes/autobiographyy.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">Autobiography of Tim-Berners-Lee</a></span>
-    <p><a href="aboutme,autobiography and techquotes/technologyquotes.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">Technology Quotes</a></span>
-    <p><a href="aboutme,autobiography and techquotes/aboutme.html" style="text-decoration: none;" title="ClickMeToSeeMyWork">AboutMe</a></span>
-        <p><a href="ac.jpg" style="text-decoration: none;" title="ClickMeToSeeMyWork">Activity C</a></span>
+    <p><a href="Home.html" style="text-decoration: none;--i:1" title="ClickMeToSeeMyWork">PersonalWebsite</a></span>
+    <p><a href="https://sites.google.com/view/e-portfolio-ict11c-paulcanotal" style="text-decoration: none;--i:2" title="ClickMeToSeeMyWork">E-Portfolio</a></span>
+    <p><a href="LA/LearningActivity1.html" style="text-decoration: none;--i:3" title="ClickMeToSeeMyWork">LearningActivity 1</a></p>
+    <p><a href="LA/LearningActivity2.html" style="text-decoration: none;--i:4" title="ClickMeToSeeMyWork">LearningActivity 2</a></p>
+    <p><a href="LA/LearningActivity3.html" style="text-decoration: none;--i:5" title="ClickMeToSeeMyWork">LearningActivity 3</a></p>
+    <p><a href="LA/LearningActivity4.html" style="text-decoration: none;--i:6" title="ClickMeToSeeMyWork">LearningActivity 4</a></p>
+    <p><a href="LA/LearningActivity5.html" style="text-decoration: none;--i:7" title="ClickMeToSeeMyWork">LearningActivity 5</a></p>
+    <p><a href="LA/LearningActivity6.html" style="text-decoration: none;--i:8" title="ClickMeToSeeMyWork">LearningActivity 6</a></p>
+    <p><a href="LA/LearningActivity7.html" style="text-decoration: none;--i:9" title="ClickMeToSeeMyWork">LearningActivity 7</a></p>
+    <p><a href="LA/LearningActivity8.html" style="text-decoration: none;--i:10" title="ClickMeToSeeMyWork">LearningActivity 8</a></p>
+    <p><a href="aboutme,autobiography and techquotes/autobiographyy.html" style="text-decoration: none;--i:11" title="ClickMeToSeeMyWork">Autobiography of Tim-Berners-Lee</a></span>
+    <p><a href="aboutme,autobiography and techquotes/technologyquotes.html" style="text-decoration: none;--i:12" title="ClickMeToSeeMyWork">Technology Quotes</a></span>
+    <p><a href="aboutme,autobiography and techquotes/aboutme.html" style="text-decoration: none;--i:13" title="ClickMeToSeeMyWork">AboutMe</a></span>
+    <p><a href="ac.jpg" style="text-decoration: none; --:14; opacity: 0;" title="ClickMeToSeeMyWork">Activity C</a></span>
 </div>
 </body>
 </html>
